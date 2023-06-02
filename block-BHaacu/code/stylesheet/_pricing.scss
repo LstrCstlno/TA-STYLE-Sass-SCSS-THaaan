@@ -1,0 +1,122 @@
+
+.pricing-options{
+    background-color: #F8F9FA;
+}
+
+.pricing-options-head{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    p{
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: rgb(139, 139, 139);
+        line-height: 1.5;
+    }
+}
+
+.pricing-options-col{
+    width: 31%;
+    text-align: center;
+    padding: 2rem 0;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 3px;
+    background-color: white;
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        padding: 1.5rem 0;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding-bottom: 3rem;
+        color: rgb(155, 155, 155);
+    }
+    button{
+        @extend %button;
+        border: 1px solid $primary-color;
+        font-weight: 300;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        color: $primary-color;
+        background-color: white;
+    }
+}
+
+.pricing-options-features{
+    li {
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding-bottom: 0.8rem;
+        h5{
+            font-size: 0.9rem;
+            font-weight: 600;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+.pricing-options-parent{
+    padding-bottom: 6rem;
+}
+
+
+.faq-col{
+    width: 49%;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(240, 237, 237); 
+    border-radius: 3px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    h4{
+        font-weight: 600;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: rgb(145, 144, 144);
+        padding-bottom: 3rem;
+        line-height: 1.5;
+    }
+}
+
+.faqs{
+    padding: 6rem 0 ;
+}
+
+.faq-head{
+    text-align: center;
+    padding-bottom: 8rem;
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        padding-bottom: 2rem;
+    }
+    p{
+        font-weight: 400;
+        color: rgb(145, 144, 144);
+    }
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+    .pricing-options-col{
+        width: 100%;
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+    .faq-col{
+        width: 100%;
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

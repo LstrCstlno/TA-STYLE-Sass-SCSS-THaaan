@@ -1,0 +1,54 @@
+$primary-color: #DC3C45;
+$text:  rgb(160, 160, 160);
+$primary-font: 'Archivo', sans-serif;
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: $primary-font;
+    font-weight: 500;
+}
+
+.flex-spacebtw{
+    justify-content: space-between;
+}
+
+.flex-aligncenter{
+    align-items: center;
+}
+
+%button{
+    border: 2px solid $primary-color;
+    padding: 0.8rem 2rem;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+%para{
+    line-height: 1.5;
+    color:  rgb(160, 160, 160);
+    font-weight: 500;
+}
+
+body{
+    box-sizing: border-box;
+    font: $primary-font;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
