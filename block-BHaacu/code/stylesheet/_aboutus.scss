@@ -1,0 +1,176 @@
+@import "generalstyles";
+
+.aboutus-head{
+    background-color: $primary-color;
+    text-align: center;
+    padding: 4rem 0;
+    color: white;
+    h2{
+        font-size:2rem;
+        font-weight: 900;
+        padding-bottom: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+
+.main-col-1{
+    padding: 6rem 0;
+    width: 35%;
+    margin-right: 10rem;
+    h4{
+        color: $primary-color;
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    }
+    p{
+        color: rgb(85, 84, 84);
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+.leader-woman-about{
+    width: 40%;
+    img{
+    width: 100%;
+    }
+}
+
+.vision-img{
+    width: 30%;
+    margin-right: 10rem;
+    img{
+        width: 100%;
+    }
+}
+
+.about-us-feature-container div{
+    padding-bottom: 4rem;
+    i{
+        font-size: 3rem;
+        padding-right: 3rem;
+    }
+    h3{
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 300;
+        line-height: 1.7;
+    }
+}
+
+.about-us-main{
+    padding-bottom: 8rem;
+}
+
+.aboutus-team{
+    padding: 8rem 0;
+    background-color: #F8F9FA;
+}
+
+.aboutus-team-head{
+    text-align: center;
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+}
+
+.team-col{
+    width: 23%;
+}
+
+.team-img{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+.team-img-intro{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    h4{
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    p{
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        color: $primary-color;
+        font-weight: 500;
+    }
+}
+
+.solutions{
+    padding: 8rem 0;
+}
+
+.solutions-container{
+    width: 60%;
+    text-align: center;
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        font-weight: 300;
+        color: rgb(125, 124, 124);
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    }
+    button{
+        @extend %button;
+        background-color: $primary-color;
+        color: white;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main-col-1{
+        width: 100%;
+        margin-right: 0;
+    }
+    .leader-woman-about{
+        width: 100%;
+        padding-bottom: 8rem;
+    }
+    .vision-img{
+        padding: 0 4rem;
+        margin-right: 0;
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .mobile-wrap{
+        flex-wrap: wrap;
+    }
+    .team-col{
+        width: 100%;
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .solutions-container{
+        width: 90%;
+    }
+}
