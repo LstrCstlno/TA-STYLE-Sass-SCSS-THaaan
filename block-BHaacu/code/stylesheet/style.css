@@ -1,0 +1,1369 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.flex-spacebtw {
+  justify-content: space-between;
+}
+
+.flex-aligncenter {
+  align-items: center;
+}
+
+.enquiry-btn button, .pricing-options-col button, .grab-btn, .solutions-container button, .consult-col-1 button, .sol div button, .service-col button, .hero-head button {
+  border: 2px solid #DC3C45;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.consult-col-1 p, .sol div p, .service-col p, .service-head p {
+  line-height: 1.5;
+  color: rgb(160, 160, 160);
+  font-weight: 500;
+}
+
+body {
+  box-sizing: border-box;
+  font: "Archivo", sans-serif;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.contact {
+  background-color: #DC3C45;
+  padding: 1rem;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.private li {
+  margin-right: 0.6rem;
+}
+
+.private li:last-child {
+  padding-left: 2rem;
+}
+
+.socials li {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+
+.home-nav {
+  background-color: rgb(230, 228, 228);
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  height: 6rem;
+}
+
+.home-nav h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+h2 span:first-child {
+  color: #DC3C45;
+}
+
+.main-page a {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.pages {
+  display: flex;
+}
+
+.main-page :hover {
+  background-color: #f24f57;
+  color: white;
+}
+
+.fa-chevron-down {
+  padding-left: 0.5rem;
+}
+
+.home {
+  padding-bottom: 0.3rem;
+}
+
+.hero {
+  background-image: url(/TA-STYLE-Sass-SCSS-THaaan/block-BHaacu/assets/media/banner-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  height: 90%;
+  width: 100%;
+}
+
+.hero-head {
+  padding-top: 10rem;
+}
+
+.hero-head h2 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 900;
+}
+.hero-head p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.hero-head button {
+  background-color: #DC3C45;
+  color: white;
+}
+
+.services {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.service-head {
+  padding-bottom: 6rem;
+}
+.service-head h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+.service-head p {
+  font-size: 1.3rem;
+}
+
+.service-col {
+  border: 2px solid rgb(233, 231, 231);
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+  padding: 3rem 2rem;
+  margin-bottom: 6rem;
+}
+.service-col img {
+  width: 6rem;
+  color: #DC3C45;
+  padding-bottom: 1.5rem;
+}
+.service-col h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+}
+.service-col p {
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.service-col button {
+  background-color: white;
+  color: #DC3C45;
+  border: 1px solid #DC3C45;
+}
+
+.sol {
+  padding: 8rem 0;
+  background-color: #F8F9FA;
+  text-align: center;
+}
+.sol div {
+  width: 60%;
+}
+.sol div h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 3rem;
+}
+.sol div p {
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+}
+.sol div button {
+  background-color: white;
+  color: #DC3C45;
+}
+
+.consult {
+  padding: 6rem 0;
+  padding-bottom: 10rem;
+}
+
+.consult-col-1 {
+  padding: 0 4rem;
+  text-align: center;
+}
+.consult-col-1 img {
+  width: 5rem;
+  padding-bottom: 2rem;
+}
+.consult-col-1 h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  padding-bottom: 3rem;
+  line-height: 1.5;
+}
+.consult-col-1 p {
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.consult-col-1 button {
+  background-color: white;
+  color: #DC3C45;
+}
+
+.consult-col {
+  width: 42%;
+}
+
+.consult-col-2 {
+  width: 55%;
+}
+.consult-col-2 img {
+  width: 100%;
+  border-radius: 1%;
+}
+
+.quote {
+  padding: 4rem 0;
+  background-color: #DC3C45;
+}
+
+.quote-1 h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+.quote-1 p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(255, 199, 199);
+}
+
+.quote-2 button {
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: #DC3C45;
+  border: 1px solid white;
+}
+
+.leader {
+  padding-top: 6rem;
+}
+
+.leader-woman {
+  width: 50%;
+}
+.leader-woman img {
+  width: 100%;
+}
+
+.leader-col-1 {
+  width: 40%;
+}
+.leader-col-1 h3 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+}
+.leader-col-1 p {
+  font-size: 1.2rem;
+  color: rgb(160, 160, 160);
+  line-height: 1.8;
+}
+
+.clients {
+  background-color: F8F9FA;
+  padding-bottom: 6rem;
+}
+.clients h3 {
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 4rem;
+}
+
+.client-img div {
+  width: 12%;
+  padding-left: 3rem;
+}
+.client-img div img {
+  filter: brightness(10%);
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.foot {
+  background-color: #343A40;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+.foot h3 {
+  color: #bccddf;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.foot i {
+  color: #93a2b1;
+}
+.foot a {
+  color: #b0becc;
+}
+.foot span {
+  color: #b0becc;
+}
+
+.foot-reach {
+  margin-right: 6rem;
+}
+.foot-reach li:not(.foot-reach-head) {
+  padding-bottom: 2rem;
+}
+.foot-reach li a, .foot-reach li span {
+  font-size: 1.2rem;
+}
+.foot-reach i {
+  padding-right: 0.8rem;
+}
+
+.foot-sitelink {
+  margin-right: 10rem;
+}
+.foot-sitelink li:not(.foot-sitelink-head) {
+  font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+
+.foot-quicklink {
+  margin-right: 8rem;
+}
+.foot-quicklink li:not(.foot-quicklink-head) {
+  font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+
+.foot-follow i {
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+}
+
+.copywriteinfo {
+  padding-top: 3rem;
+  text-align: center;
+  color: #93a2b1;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.copywriteinfo span {
+  font-weight: 500;
+  color: #b0becc;
+}
+
+.page-dropdown-menu {
+  position: absolute;
+  display: none;
+}
+.page-dropdown-menu li {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  background-color: #E6E4E4;
+}
+
+.page:hover .page-dropdown-menu {
+  display: block;
+}
+
+.dropdown {
+  transition: 0.5s;
+}
+
+.dropdown:hover {
+  background-color: #DC3C45;
+}
+.dropdown:hover a {
+  color: white;
+}
+
+#ham {
+  display: none;
+}
+
+.ham {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .private {
+    width: 100%;
+    padding-bottom: 1rem;
+    justify-content: center;
+  }
+  .socials {
+    justify-content: center;
+    width: 100%;
+  }
+  .pages {
+    display: none;
+  }
+  .hero {
+    background-size: cover;
+    background-position-x: -30rem;
+    height: 80vh;
+  }
+  .hero-head h2 {
+    width: 40%;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    font-weight: 900;
+  }
+  .service-parent:last-child {
+    margin-bottom: 10rem;
+    flex-wrap: wrap;
+  }
+  .service-col {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+  .consult-wrap {
+    flex-wrap: wrap;
+  }
+  .consult-col-1 {
+    margin-bottom: 2rem;
+  }
+  .consult-col {
+    width: 100%;
+  }
+  .quote div {
+    justify-content: center;
+    text-align: center;
+  }
+  .quote-1 {
+    padding-bottom: 2rem;
+  }
+  .leader-col-1 {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .leader-wrap {
+    flex-wrap: wrap;
+  }
+  .leader-woman {
+    width: 100%;
+  }
+  .client-img div {
+    justify-content: center;
+    width: 20%;
+    padding-left: 3rem;
+  }
+  .client-img div img {
+    filter: brightness(10%);
+    filter: grayscale(100%);
+    width: 100%;
+  }
+  .vanish {
+    display: none;
+  }
+  .foot-reach {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .foot-follow {
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .ham {
+    display: inline-block;
+    color: #DC3C45;
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    z-index: 2;
+  }
+  #ham:checked ~ .pages {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    height: 100vh;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.flex-spacebtw {
+  justify-content: space-between;
+}
+
+.flex-aligncenter {
+  align-items: center;
+}
+
+.enquiry-btn button, .pricing-options-col button, .grab-btn, .solutions-container button, .hero-head button, .service-col button, .sol div button, .consult-col-1 button {
+  border: 2px solid #DC3C45;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.service-head p, .service-col p, .sol div p, .consult-col-1 p {
+  line-height: 1.5;
+  color: rgb(160, 160, 160);
+  font-weight: 500;
+}
+
+body {
+  box-sizing: border-box;
+  font: "Archivo", sans-serif;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.flex-spacebtw {
+  justify-content: space-between;
+}
+
+.flex-aligncenter {
+  align-items: center;
+}
+
+.enquiry-btn button, .pricing-options-col button, .grab-btn, .solutions-container button, .hero-head button, .service-col button, .sol div button, .consult-col-1 button {
+  border: 2px solid #DC3C45;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.service-head p, .service-col p, .sol div p, .consult-col-1 p {
+  line-height: 1.5;
+  color: rgb(160, 160, 160);
+  font-weight: 500;
+}
+
+body {
+  box-sizing: border-box;
+  font: "Archivo", sans-serif;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.aboutus-head {
+  background-color: #DC3C45;
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+}
+.aboutus-head h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.aboutus-head p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.main-col-1 {
+  padding: 6rem 0;
+  width: 35%;
+  margin-right: 10rem;
+}
+.main-col-1 h4 {
+  color: #DC3C45;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-col-1 h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.main-col-1 p {
+  color: rgb(85, 84, 84);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.leader-woman-about {
+  width: 40%;
+}
+.leader-woman-about img {
+  width: 100%;
+}
+
+.vision-img {
+  width: 30%;
+  margin-right: 10rem;
+}
+.vision-img img {
+  width: 100%;
+}
+
+.about-us-feature-container div {
+  padding-bottom: 4rem;
+}
+.about-us-feature-container div i {
+  font-size: 3rem;
+  padding-right: 3rem;
+}
+.about-us-feature-container div h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+  font-weight: 700;
+}
+.about-us-feature-container div p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.about-us-main {
+  padding-bottom: 8rem;
+}
+
+.aboutus-team {
+  padding: 8rem 0;
+  background-color: #F8F9FA;
+}
+
+.aboutus-team-head {
+  text-align: center;
+}
+.aboutus-team-head h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.aboutus-team-head p {
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.team-col {
+  width: 23%;
+}
+
+.team-img {
+  width: 100%;
+}
+.team-img img {
+  width: 100%;
+}
+
+.team-img-intro {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+}
+.team-img-intro h4 {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.team-img-intro p {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #DC3C45;
+  font-weight: 500;
+}
+
+.solutions {
+  padding: 8rem 0;
+}
+
+.solutions-container {
+  width: 60%;
+  text-align: center;
+}
+.solutions-container h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.solutions-container p {
+  font-weight: 300;
+  color: rgb(125, 124, 124);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.solutions-container button {
+  background-color: #DC3C45;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .main-col-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .leader-woman-about {
+    width: 100%;
+    padding-bottom: 8rem;
+  }
+  .vision-img {
+    padding: 0 4rem;
+    margin-right: 0;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .mobile-wrap {
+    flex-wrap: wrap;
+  }
+  .team-col {
+    width: 100%;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  .solutions-container {
+    width: 90%;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.flex-spacebtw {
+  justify-content: space-between;
+}
+
+.flex-aligncenter {
+  align-items: center;
+}
+
+.enquiry-btn button, .pricing-options-col button, .grab-btn, .hero-head button, .service-col button, .sol div button, .consult-col-1 button, .solutions-container button {
+  border: 2px solid #DC3C45;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.service-head p, .service-col p, .sol div p, .consult-col-1 p {
+  line-height: 1.5;
+  color: rgb(160, 160, 160);
+  font-weight: 500;
+}
+
+body {
+  box-sizing: border-box;
+  font: "Archivo", sans-serif;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.services-head {
+  background-color: #DC3C45;
+  text-align: center;
+  color: white;
+  padding: 3rem 0;
+}
+.services-head div h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.services-head div p {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.services-hero {
+  padding: 6rem 0;
+}
+
+.services-hero-col {
+  width: 35%;
+}
+.services-hero-col h4 {
+  color: #DC3C45;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+.services-hero-col h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.3;
+  padding-bottom: 1.5rem;
+}
+.services-hero-col p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.services-img {
+  width: 50%;
+}
+.services-img img {
+  width: 100%;
+}
+
+.products {
+  padding: 8rem 0;
+  background-color: #F8F9FA;
+}
+
+.product-head {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.product-head h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.product-head p {
+  font-weight: 300;
+}
+
+.product-col {
+  width: 28%;
+}
+.product-col div {
+  width: 25%;
+}
+.product-col div img {
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.product-col h4 {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+.product-col p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.line-through {
+  border-top: 2px #ebe8e8 solid;
+}
+
+.product-container-1 {
+  padding-bottom: 6rem;
+}
+
+.product-container-2 {
+  padding-top: 6rem;
+}
+
+.deals {
+  background-color: #DC3C45;
+  padding: 2rem 0;
+}
+
+.deal-col-1 {
+  color: white;
+}
+.deal-col-1 h4 {
+  font-size: 1.1rem;
+}
+.deal-col-1 span {
+  padding: 0 2rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+.deal-col-1 p {
+  font-weight: 100;
+}
+
+.grab-btn {
+  color: white;
+  background-color: #DC3C45;
+  border: 1px solid white;
+}
+
+.award {
+  padding: 5rem 0;
+}
+
+.award-head {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.award-head h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.award-head p {
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.award-col {
+  width: 50%;
+}
+
+.award-col-1 {
+  text-align: center;
+  padding: 4rem;
+}
+.award-col-1 img {
+  width: 20%;
+  padding-bottom: 2rem;
+}
+.award-col-1 h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.award-col-1 p {
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.award-col-2 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .services-hero-col {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .services-img {
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .product-head p {
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    line-height: 1.5;
+  }
+  .product-col {
+    width: 100%;
+    padding-bottom: 4rem;
+    margin: 0 1rem;
+  }
+  .deal-col-1 {
+    width: 100%;
+  }
+  .deal-col-1 h4 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .deal-col-1 span {
+    display: none;
+  }
+  .deal-col-1 p {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .grab-btn {
+    margin: 0 auto;
+  }
+  .award-col-1 {
+    width: 100%;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+  }
+  .award-col-2 {
+    width: 100%;
+    margin: 0 1rem;
+  }
+}
+.pricing-options {
+  background-color: #F8F9FA;
+}
+
+.pricing-options-head {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.pricing-options-head p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(139, 139, 139);
+  line-height: 1.5;
+}
+
+.pricing-options-col {
+  width: 31%;
+  text-align: center;
+  padding: 2rem 0;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 3px;
+  background-color: white;
+}
+.pricing-options-col h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 1.5rem 0;
+}
+.pricing-options-col p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
+  color: rgb(155, 155, 155);
+}
+.pricing-options-col button {
+  border: 1px solid #DC3C45;
+  font-weight: 300;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #DC3C45;
+  background-color: white;
+}
+
+.pricing-options-features li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+}
+.pricing-options-features li h5 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.pricing-options-parent {
+  padding-bottom: 6rem;
+}
+
+.faq-col {
+  width: 49%;
+  margin-bottom: 2rem;
+  border: 2px solid rgb(240, 237, 237);
+  border-radius: 3px;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.faq-col h4 {
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.faq-col p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(145, 144, 144);
+  padding-bottom: 3rem;
+  line-height: 1.5;
+}
+
+.faqs {
+  padding: 6rem 0;
+}
+
+.faq-head {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+.faq-head h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+.faq-head p {
+  font-weight: 400;
+  color: rgb(145, 144, 144);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .pricing-options-col {
+    width: 100%;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .faq-col {
+    width: 100%;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+.contact-hero {
+  background-color: #F8F9FA;
+}
+
+.contact-hero-head {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.contact-hero-head p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(139, 139, 139);
+  line-height: 1.5;
+}
+
+.contact-hero-col {
+  text-align: center;
+}
+.contact-hero-col h4 {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+.contact-hero-col p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.contact-flex {
+  display: flex;
+  background-color: rgb(235, 233, 233);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.contact-flex i {
+  color: #DC3C45;
+  font-size: 2rem;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.enquiry-head {
+  text-align: center;
+}
+.enquiry-head h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+.enquiry-head p {
+  color: rgb(160, 160, 160);
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.enquire-col {
+  width: 48%;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: 1rem 0;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 3px;
+  font-family: "Archivo", sans-serif;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.enquiry-btn {
+  text-align: center;
+}
+.enquiry-btn button {
+  background-color: #DC3C45;
+  color: white;
+  font-weight: 300;
+}
+
+.enquire {
+  padding: 6rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .contact-hero-col {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .contact-container {
+    padding-bottom: 2rem;
+  }
+  .enquire-col {
+    width: 100%;
+    padding-bottom: 3rem;
+    margin: 0 1rem;
+  }
+}
+.error-hero-head {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.error-hero-head h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.error-hero-head p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(139, 139, 139);
+  line-height: 1.5;
+}/*# sourceMappingURL=style.css.map */
